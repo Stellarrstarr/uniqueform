@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 500px;
+    margin: 50px auto;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    border-top: 4px solid #ffcc00;
+    padding: 5px 20px 30px 20px;
+}
+
+
+.title h2 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+
+.input_group {
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.icon {
+    width: 40px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid grey;
+    border-right: none;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+}
+
+
+input:focus {
+    border: 2px solid #ffcc00;
+    outline: none;
+}
+
+.name {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 7px;
+}
+
+.name1 {
+    display: flex;
+}
+
+.radio_button {
+    display: inline-flex;
+    gap: 10px;
+}
+
+.radio_btn {
+    display: flex;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+
+.box {
+    display: flex;
+    padding: 9px 0px;
+    gap: 5px;
+}
+
+
+.submit {
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    background-color: #dfb200;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 14px;
+    text-align: right;
+}
+
+.text a {
+    text-decoration: none;
+}
+
+.text a:hover {
+    text-decoration: underline;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4px;
+}
+
+.links a {
+    text-decoration: none;
+    text-align: left;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}

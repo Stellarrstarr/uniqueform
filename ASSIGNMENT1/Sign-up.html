@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./Sign-up.css">
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <title>Sign-up Form</title>
+
+
+</head>
+
+<body>
+    <form action="http://127.0.0.1:5500/login.html" target="_blank">
+        <div class="container">
+
+            <div class="title">
+                <h2>Responsive Registration <br> Form</h2>
+            </div>
+
+
+            <div class="input_group">
+                <i class="fa-solid fa-envelope icon"></i>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+
+            <div class="input_group">
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+            </div>
+
+
+
+            <div class="input_group">
+                <i class="fa-solid fa-lock icon"></i>
+                <input type="password" name="password" id="password" placeholder="Re-type Password" required>
+            </div>
+
+            <div class="name">
+                <div class="name1">
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="text" name="first name" id="first name" placeholder="First Name" required>
+                </div>
+
+                <div class="name1">
+                    <i class="fa-solid fa-user icon"></i>
+                    <input type="text" name="last name" id="last name" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="radio_button">
+                <div class="radio_btn">
+                    <input type="radio" name="gender" id="male" required>
+                </div>
+
+                <div class="radio_btn">
+                    <label for="male">Male</label>
+                </div>
+
+                <div class="radio_btn1">
+                    <input type="radio" name="gender" id="female" required>
+                </div>
+
+                <div class="radio_btn1">
+                    <label for="female">Female</label>
+                </div>
+            </div>
+
+            <div class="country">
+                <select required>
+                    <option class="hidden" hidden selected>Select a country</option>
+                    <option value="pakistan">Pakistan</option>
+                    <option value="arabia">Arabia</option>
+                    <option value="south-africa">South- Africa</option>
+                    <option value="algeria">Algeria</option>
+                    <option value="tunisia">Tunisia</option>
+                </select>
+            </div>
+
+            <div class="boxes">
+                <div class="box">
+                    <div class="box">
+                        <input type="checkbox" name="box" id="box">
+                    </div>
+                    <div class="box">
+                        <label for="box">I agree with terms and conditions</label>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="checkbox">
+                        <input type="checkbox" name="checkbox" id="checkbox">
+                    </div>
+                    <div class="checkbox">
+                        <label for="checkbox"> I want to receive the newsletter</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="submit_btn">
+                <input class="submit" type="submit" value="Register" required>
+            </div>
+
+            <div class="links">
+                <p class="text">Have an account?<a href="./index.html">Log in</a></p>
+
+               <a href="./assignment.html">Assignment</a>
+            </div>
+
+        </div>
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        body {
+            background-color: #d1b957;
+        }
+
+        header {
+            background: linear-gradient(200deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
+            font-size: 22px;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .links a {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
+        .links a:hover {
+            padding: 5px;
+            background-color: #d1b957;
+            font-size: 17px;
+            transition: .5s;
+            border-radius: 5px;
+        }
+
+        ol {
+            font-size: 20px;
+        }
+
+        li .second {
+            list-style: disc;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Q & A</h1>
+        <div class="links">
+            <a href="./Sign-up.html">Sign up</a>
+            <a href="./index.html">Log in</a>
+        </div>
+    </header>
+    <ol>
+        <li>
+            <h3>Is there a way to prevent the user from manually adjusting the textarea element?</h3>
+            <dd>
+                -YES, there is a way to adjust the textarea element.
+            </dd>
+        <li>
+            <h3>If yes, how?</h3>
+        </li>
+        <dd>
+            <b>Restriction</b><br>
+            -The most easiest way to do this is by setting resize to none in the CSS. Resize is a property that
+            specifies whether or not an element is resizable by the user.
+        </dd>
+
+        <li>
+            <h3>What are the definitions of the different types of target in HTML</h3>
+        </li>
+
+        <ul>
+            <li class="second">
+                _blank: It opens the linked document in a new window or tab. <br></li>
+
+            <li> _self: It opens the linked document in the same frame as it was clicked. This is the default. <br></li>
+
+            <li> _parent: It opens the linked document in the parent frame. <br></li>
+
+            <li> _top: It opens the linked documentin the full body of the window. <br></li>
+
+            <li> _framename: It opens the linked document in the named iframe.</li>
+
+        </ul>
+    </ol>
+    
+</body>
+
+</html>
